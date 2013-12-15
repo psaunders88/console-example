@@ -1,0 +1,3 @@
+# Just ignore the vendors and data directory
+vendor/*
+data/*

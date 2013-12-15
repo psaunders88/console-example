@@ -1,0 +1,15 @@
+<?php
+
+require __DIR__.'/../vendor/autoload.php';
+
+use Importer\Command\ImportCommand;
+use Symfony\Component\Console\Application;
+use Importer\Managers\DataManager;
+
+$application = new Application();
+$application->add(
+	new ImportCommand(
+		new DataManager()
+	)
+);
+$application->run();
