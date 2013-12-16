@@ -47,7 +47,7 @@ class ImportCommand extends Command
     protected function configure()
     {
         $this
-            ->setName('wss:import')
+            ->setName('data:import')
             ->setDescription('Import data')
             ->addArgument(
                 'datafile',
