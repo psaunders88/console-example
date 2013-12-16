@@ -47,7 +47,7 @@ class ImportCommand extends Command
     protected function configure()
     {
         $this
-            ->setName('data:import')
+            ->setName('csv:import')
             ->setDescription('Import data')
             ->addArgument(
                 'datafile',
