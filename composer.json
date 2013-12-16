@@ -1,6 +1,7 @@
 {
     "require": {
-        "symfony/console": "2.3.*@dev"
+        "symfony/console": "2.3.*@dev",
+        "symfony/filesystem": "2.5.*@dev"
     },
     "autoload": {
         "psr-0": {
